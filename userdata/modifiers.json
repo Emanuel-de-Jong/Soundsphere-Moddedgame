@@ -1,0 +1,25 @@
+[
+	{
+		"name": "AutoPlay"
+	},
+	{
+		"name": "SpeedMode",
+		"value": 3
+	},
+	{
+		"name": "TimeRateQ",
+		"value": 0
+	},
+	{
+		"name": "TimeRateX",
+		"value": 1
+	},
+	{
+		"name": "AudioClip",
+		"value": 0
+	},
+	{
+		"name": "Automap",
+		"keys": 10
+	}
+]

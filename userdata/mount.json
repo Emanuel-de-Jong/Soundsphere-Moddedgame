@@ -1,1 +1,30 @@
-[["E:\\Other\\charts\\00test","userdata/charts/00test"],["E:\\Other\\charts\\bms","userdata/charts/bms"],["E:\\Other\\charts\\djmax","userdata/charts/djmax"],["E:\\Other\\charts\\midi","userdata/charts/midi"],["E:\\Other\\charts\\osu","userdata/charts/osu"],["E:\\Other\\charts\\osu-midi","userdata/charts/osu-midi"],["E:\\Other\\charts\\quaver","userdata/charts/quaver"]]
+[
+	[
+		"E:\\Other\\charts\\00test",
+		"userdata/charts/00test"
+	],
+	[
+		"E:\\Other\\charts\\bms",
+		"userdata/charts/bms"
+	],
+	[
+		"E:\\Other\\charts\\djmax",
+		"userdata/charts/djmax"
+	],
+	[
+		"E:\\Other\\charts\\midi",
+		"userdata/charts/midi"
+	],
+	[
+		"E:\\Other\\charts\\osu",
+		"userdata/charts/osu"
+	],
+	[
+		"E:\\Other\\charts\\osu-midi",
+		"userdata/charts/osu-midi"
+	],
+	[
+		"E:\\Other\\charts\\quaver",
+		"userdata/charts/quaver"
+	]
+]
