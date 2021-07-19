@@ -1,0 +1,254 @@
+[general]
+input = [
+	"scratch1",
+	"key1",
+	"key2",
+	"key2",
+	"key3",
+	"key4",
+	"key5",
+	"key8",
+	"key9",
+	"key10",
+	"key11",
+	"key12",
+	"scratch2",
+	"key6",
+	"key7",
+	"key13",
+	"key14"
+]
+unit = 1080
+scroll = 1
+
+[columns]
+x = 0
+y = 805
+align = "center"
+width = [450, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 450, 0, 0, 0, 0]
+height = [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 0, 0, 0, 0]
+space = [-450, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, -450, 0, 0, 0, 0, 0]
+
+[guidelines]
+layer = 5
+y = 0
+width = [0]
+height = [900]
+images = ["color/white.png"]
+
+[measureline]
+height = 2
+layer = 1
+image = "color/white.png"
+
+[bga]
+color = [63, 63, 63, 255]
+layer = -2
+
+[keys]
+padding = 40
+width = [450, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 450,  0, 0, 0, 0]
+height = [195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195,  0, 0, 0, 0]
+layer = 12
+pressed = [
+	"key/scratch.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/scratch.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+released = [
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes]
+[notes.ShortNote]
+[notes.ShortNote.Head]
+layer = 3
+images = [
+	"color/green.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/green.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes.LongNote]
+[notes.LongNote.Head]
+layer = 3
+images = [
+	"color/green.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/green.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes.LongNote.Body]
+layer = 1
+images = [
+	"color/green.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/green.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes.LongNote.Tail]
+layer = 2
+images = [
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes.SoundNote]
+[notes.SoundNote.Head]
+layer = 3
+images = [
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[playfield]
+[playfield.timegate]
+class = "ScoreDisplay"
+field = "timegate"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/PSCHC-S v3 10K toml/AldotheApache.ttf"
+size = 35
+xywh = [0, 100, 1080,980]
+origin = "lane"
+layer = 11
+
+
+[personal_playfield]
+[playfield.BlackBackground]
+class = "StaticObject"
+xywh = [89,0,902,1080]
+origin = "lane"
+image = "color/black.png"
+layer = 0
+
+[playfield.BlackBackgroundKey]
+class = "StaticObject"
+xywh = [89,805,902,275]
+origin = "lane"
+image = "color/black.png"
+layer = 9
+
+[playfield.StageLeft]
+class = "StaticObject"
+xywh = [85, 0, 4, 1080]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.StageRight]
+class = "StaticObject"
+xywh = [991, 0, 4, 1080]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.ColumnLine]
+class = "StaticObject"
+xywh = [539, 0, 2, 795]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.JudgeLine]
+class = "StaticObject"
+xywh = [89, 795, 902, 20]
+origin = "lane"
+image = "color/red.png"
+layer = 10

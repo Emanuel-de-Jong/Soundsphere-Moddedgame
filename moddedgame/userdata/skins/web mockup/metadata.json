@@ -1,0 +1,8 @@
+[
+	{
+		"name": "soundsphere web",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "10key.toml"
+	}
+]

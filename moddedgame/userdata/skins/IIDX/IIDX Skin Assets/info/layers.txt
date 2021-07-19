@@ -1,0 +1,21 @@
+blank			0
+lanes			1
+beams			2
+measure			3
+notes			
+	noteB		4
+	noteT		5
+	noteH		6
+	note		7
+lane covers
+	hidden		8
+	lift		9
+	sudden		10
+main			11
+progbar			12
+acc score comb	12
+keys
+	key blue	12
+	key white	13
+bomb			14
+judge			15

@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Derby 20K",
+		"inputMode": "20key",
+		"type": "toml:simple-v3",
+		"path": "20K.toml"
+	},
+	{
+		"name": "Derby 20K Left",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "20K Left.toml"
+	},
+	{
+		"name": "Derby 20K Right",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "20K Right.toml"
+	},
+	{
+		"name": "Derby 18K",
+		"inputMode": "18key",
+		"type": "toml:simple-v3",
+		"path": "18K.toml"
+	},
+	{
+		"name": "Derby 18K Left",
+		"inputMode": "9key",
+		"type": "toml:simple-v3",
+		"path": "18K Left.toml"
+	},
+	{
+		"name": "Derby 18K Right",
+		"inputMode": "9key",
+		"type": "toml:simple-v3",
+		"path": "18K Right.toml"
+	},
+	{
+		"name": "Derby 16K",
+		"inputMode": "16key",
+		"type": "toml:simple-v3",
+		"path": "16K.toml"
+	},
+	{
+		"name": "Derby 16K Left",
+		"inputMode": "8key",
+		"type": "toml:simple-v3",
+		"path": "16K Left.toml"
+	},
+	{
+		"name": "Derby 16K Right",
+		"inputMode": "8key",
+		"type": "toml:simple-v3",
+		"path": "16K Right.toml"
+	}
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "IIDX 4k v1",
+    "inputMode": "4key",
+    "type": "json:full-v3",
+    "path": "jsons/4k v1.json"
+  },
+  {
+    "name": "IIDX 4k v2",
+    "inputMode": "4key",
+    "type": "json:full-v3",
+    "path": "jsons/4k v2.json"
+  },
+  {
+    "name": "IIDX 5k1s",
+    "inputMode": "5key1scratch",
+    "type": "json:full-v3",
+    "path": "jsons/5k1s.json"
+  },
+  {
+    "name": "IIDX 6k",
+    "inputMode": "6key",
+    "type": "json:full-v3",
+    "path": "jsons/6k.json"
+  },
+  {
+    "name": "IIDX 7k1s",
+    "inputMode": "7key1scratch",
+    "type": "json:full-v3",
+    "path": "jsons/7k1s.json"
+  },
+  {
+    "name": "IIDX 8k",
+    "inputMode": "8key",
+    "type": "json:full-v3",
+    "path": "jsons/8k.json"
+  },
+  {
+    "name": "IIDX 10k2s v1",
+    "inputMode": "10key2scratch",
+    "type": "json:full-v3",
+    "path": "jsons/10k2s v1.json"
+  },
+  {
+    "name": "IIDX 10k2s v2",
+    "inputMode": "10key2scratch",
+    "type": "json:full-v3",
+    "path": "jsons/10k2s v2.json"
+  },
+  {
+    "name": "IIDX 10k2s v3",
+    "inputMode": "10key2scratch",
+    "type": "json:full-v3",
+    "path": "jsons/10k2s v3.json"
+  },
+  {
+    "name": "IIDX 10k2s v4",
+    "inputMode": "10key2scratch",
+    "type": "json:full-v3",
+    "path": "jsons/10k2s v4.json"
+  },
+  {
+    "name": "IIDX 12k",
+    "inputMode": "12key",
+    "type": "json:full-v3",
+    "path": "jsons/12k.json"
+  },
+  {
+    "name": "IIDX 14k2s",
+    "inputMode": "14key2scratch",
+    "type": "json:full-v3",
+    "path": "jsons/14k2s.json"
+  },
+  {
+    "name": "IIDX 16k",
+    "inputMode": "16key",
+    "type": "json:full-v3",
+    "path": "jsons/16k.json"
+  }
+]

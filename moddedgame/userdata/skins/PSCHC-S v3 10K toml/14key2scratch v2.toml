@@ -1,0 +1,280 @@
+[general]
+name = "PSCHC-S v3 14K2S v2 ez2ac"
+inputMode = "14key2scratch"
+input = [
+	"scratch1",
+	"key1",
+	"key2",
+	"key3",
+	"key4",
+	"key5",
+	"key6",
+	"key7",
+	"key8",
+	"key9",
+	"key10",
+	"key11",
+	"key12",
+	"key13",
+	"key14",
+	"scratch2"
+]
+unit = 1080
+scroll = 1
+
+[columns]
+x = 0
+y = 805
+align = "center"
+width = [195, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 195]
+height = [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+space = [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0]
+
+[guidelines]
+layer = 5
+y = 0
+width = [0]
+height = [900]
+images = ["color/white.png"]
+
+[measureline]
+height = 2
+layer = 1
+image = "color/white.png"
+
+[bga]
+color = [63, 63, 63, 255]
+layer = -2
+
+
+
+[keys]
+padding = 40
+width = [195, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 195]
+height = [195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195]
+layer = 12
+pressed = [
+	"key/scratch.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/pressed.png",
+	"key/scratch.png",
+]
+released = [
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png",
+	"color/blank.png"
+]
+
+[notes]
+[notes.ShortNote]
+[notes.ShortNote.Head]
+layer = 3
+images = [
+	"color/purple.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/purple.png"
+]
+
+[notes.LongNote]
+[notes.LongNote.Head]
+layer = 3
+images = [
+	"color/purple.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/purple.png"
+]
+
+[notes.LongNote.Body]
+layer = 1
+images = [
+	"color/purple.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/blue.png",
+	"color/white.png",
+	"color/purple.png"
+]
+
+[notes.LongNote.Tail]
+layer = 2
+images = [
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png",
+	"color/black.png"
+]
+[notes.SoundNote]
+[notes.SoundNote.Head]
+layer = 3
+images = [
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png",
+	"color/red.png"
+]
+
+
+[personal_playfield]
+[playfield.BlackBackground]
+class = "StaticObject"
+xywh = [-289,0,1658,1080]
+origin = "lane"
+image = "color/black.png"
+layer = 0
+
+[playfield.BlackBackgroundKey]
+class = "StaticObject"
+xywh = [-289,805,1658,275]
+origin = "lane"
+image = "color/black.png"
+layer = 9
+
+[playfield.StageLeft]
+class = "StaticObject"
+xywh = [-293, 0, 4, 1080]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.StageRight]
+class = "StaticObject"
+xywh = [1365, 0, 4, 1080]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+
+[playfield.ColumnLine1]
+class = "StaticObject"
+xywh = [-95, 0, 2, 795]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.ColumnLine2]
+class = "StaticObject"
+xywh = [357, 0, 2, 795]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.ColumnLine3]
+class = "StaticObject"
+xywh = [721, 0, 2, 795]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+[playfield.ColumnLine4]
+class = "StaticObject"
+xywh = [1173, 0, 2, 795]
+origin = "lane"
+image = "color/whiteD.png"
+layer = 10
+
+
+[playfield.JudgeLine]
+class = "StaticObject"
+xywh = [-289, 795, 1658, 20]
+origin = "lane"
+image = "color/red.png"
+layer = 10
+
+
+[playfield]
+[playfield.timegate]
+class = "ScoreDisplay"
+field = "timegate"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/PSCHC-S v3 10K toml/AldotheApache.ttf"
+size = 45
+xywh = [0, 0, 1080,1080]
+origin = "lane"
+layer = 11

@@ -1,0 +1,1115 @@
+[
+  { "____COMMENT____": "Cover Heights" },
+  { "____COMMENT____": "Hidden" },
+  {
+    "x": -0.464,
+    "y": 0.67,
+    "w": 0.9275,
+    "h": 0.6694,
+    "image": "assets/covers/hiddenDP.png",
+    "class": "StaticObject",
+    "layer": 8,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  { "____COMMENT____": "Lift" },
+  {
+    "x": -0.464,
+    "y": 0.67,
+    "w": 0.9275,
+    "h": 0.5554,
+    "image": "assets/covers/liftDP.png",
+    "class": "StaticObject",
+    "layer": 9,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.464,
+    "y": 0.0,
+    "w": 0.9275,
+    "h": 0.6694,
+    "image": "assets/lanes/DP.png",
+    "class": "StaticObject",
+    "layer": 1,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  { "____COMMENT____": "Sudden" },
+  {
+    "x": -0.464,
+    "y": -0.67,
+    "w": 0.9275,
+    "h": 0.6694,
+    "image": "assets/covers/suddenDP.png",
+    "class": "StaticObject",
+    "layer": 10,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  
+  { "____COMMENT____": "Judge Height" },
+  { "____COMMENT____": "Judge Left" },
+  {
+    "x": -0.5627,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%s",
+    "field": "timegate",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.203,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%d",
+    "field": "combo",
+    "align": {
+      "x": "left",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  { "____COMMENT____": "Judge Right" },
+  {
+    "x": -0.035,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%s",
+    "field": "timegate",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.325,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%d",
+    "field": "combo",
+    "align": {
+      "x": "left",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  
+
+  {
+    "x": -0.4889,
+    "y": 0.0519,
+    "w": 0.0111,
+    "h": 0.5852,
+    "image": "assets/lamps/bg.png",
+    "class": "StaticObject",
+    "layer": 7,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.4861,
+    "y": 0.0704,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      250,
+      200,
+      50,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 8,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.4861,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.0157,
+    "image": "assets/lamps/lamp.png",
+    "class": "StaticObject",
+    "layer": 9,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.4861,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 10,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+
+  {
+    "x": 0.4778,
+    "y": 0.0519,
+    "w": 0.0111,
+    "h": 0.5852,
+    "image": "assets/lamps/bg.png",
+    "class": "StaticObject",
+    "layer": 7,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.4806,
+    "y": 0.0704,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      250,
+      200,
+      50,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 8,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.4806,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.0157,
+    "image": "assets/lamps/lamp.png",
+    "class": "StaticObject",
+    "layer": 9,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.4806,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 10,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  
+  {
+    "x": -0.888888889,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "image": "assets/modes/10k v1.png",
+    "class": "StaticObject",
+    "layer": 11,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+
+  {
+    "x": -0.148,
+    "y": 0.645,
+    "w": 0.2,
+    "h": 0.1,
+    "color": [
+      235,
+      235,
+      235,
+      255
+    ],
+    "format": "%d",
+    "field": "accuracy",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/accuracy.ttf",
+    "size": 29,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.434,
+    "y": 0.881,
+    "w": 0.25,
+    "h": 0.05,
+    "color": [
+      255,
+      240,
+      180,
+      255
+    ],
+    "format": "%06d",
+    "field": "score",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/score.ttf",
+    "size": 26,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.124,
+    "y": 0.881,
+    "w": 0.25,
+    "h": 0.05,
+    "color": [
+      255,
+      240,
+      180,
+      255
+    ],
+    "format": "%04d",
+    "field": "combo",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/score.ttf",
+    "size": 26,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  
+  {
+    "x": -0.4639,
+    "y": 0.0,
+    "w": 0.083,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/r.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.378,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.328,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.289,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.239,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 5,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.2,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 6,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.153,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 7,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.203,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 8,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.242,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 9,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.292,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 10,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.331,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 11,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.3806,
+    "y": 0.0,
+    "w": 0.083,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 12,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/r.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+
+  {
+    "x": -0.3805,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.3305,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.2915,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.2415,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 5,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.2025,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 6,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.15,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 7,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.2,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 8,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.239,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 9,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.289,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 10,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.328,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 11,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  
+  {
+    "x": -0.690,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.625,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.580,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.535,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.490,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 5,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.445,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 6,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.095,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 7,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.050,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 8,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": -0.005,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 9,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.040,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 10,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.085,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 11,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "x": 0.155,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 12,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  }
+]

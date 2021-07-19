@@ -1,0 +1,296 @@
+[general]
+input = [
+	"scratch1",
+	"key1",
+	"key2",
+	"key3",
+	"key4",
+	"key5",
+	"key6",
+	"key7",
+	"key8",
+	"key9",
+	"key10",
+	"key11",
+	"key12",
+	"key13",
+	"key14",
+	"scratch2"
+	
+]
+unit = 480
+scroll = 1
+
+[columns]
+x = 150
+y = 370
+align = "left"
+width = [50,26,24,26,24,26,24,26,26,24,26,24,26,24,26,50]
+height = [7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5]
+space = [0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0]	
+
+[guidelines]
+layer = 5
+y = 0
+width = [0]
+height = [340]
+images = ["assets/white.png"]
+
+[measureline]
+height = 1
+layer = 3
+image = "assets/white.png"
+
+[bga]
+color = [63, 63, 63, 255]
+layer = -2
+
+[keys]
+padding = 395
+width = [50,26,24,26,24,26,24,26,26,24,26,24,26,24,26,50]
+height = [-285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285, -285]
+layer = 17
+pressed = [
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png",
+	"assets/laser.png"
+]
+
+released = [
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png",
+	"assets/blank.png"
+]
+
+[notes]
+[notes.ShortNote]
+[notes.ShortNote.Head]
+layer = 14
+images = [
+	"assets/mania-note3.png",
+	"assets/mania-note1.png",
+	"assets/mania-note2.png",
+	"assets/mania-note1.png",
+	"assets/mania-noteS.png",
+	"assets/mania-note1.png",
+	"assets/mania-note2.png",
+	"assets/mania-note1.png",
+	"assets/mania-note1.png",
+	"assets/mania-note2.png",
+	"assets/mania-note1.png",
+	"assets/mania-noteS.png",
+	"assets/mania-note1.png",
+	"assets/mania-note2.png",
+	"assets/mania-note1.png",
+	"assets/mania-note3.png"
+]
+
+[notes.LongNote]
+[notes.LongNote.Head]
+layer = 14
+images = [
+	"assets/mania-note3L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-noteSL.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",	
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-noteSL.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note3L.png"
+]
+
+[notes.LongNote.Body]
+layer = 12
+images = [
+	"assets/mania-note3L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-noteSL.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",	
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-noteSL.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note2L.png",
+	"assets/mania-note1L.png",
+	"assets/mania-note3L.png"
+]
+
+[notes.LongNote.Tail]
+layer = 13
+images = [
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png",
+	"assets/black.png"
+
+]
+[notes.SoundNote]
+[notes.SoundNote.Head]
+layer = 11
+images = [
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png",
+	"assets/red.png"
+]
+
+[personal_playfield]
+[playfield.BlackBackground]
+class = "StaticObject"
+xywh = [-6, 0, 492, 480]
+origin = "lane"
+image = "assets/black.png"
+layer = 2
+
+[playfield.BlackBackgroundMiddle]
+class = "StaticObject"
+xywh = [220, 0, 40, 480]
+origin = "lane"
+image = "assets/black.png"
+layer = 18
+
+[playfield.BlackKey]
+class = "StaticObject"
+xywh = [-6, 403, 492, 77]
+origin = "lane"
+image = "assets/key.png"
+layer = 16
+
+[playfield.JudgeLine]
+class = "StaticObject"
+xywh = [-6, 328, 492, 47]
+origin = "lane"
+image = "assets/stage.png"
+layer = 9
+
+[playfield.JudgeLinemiddle]
+class = "StaticObject"
+xywh = [-6, 370, 492, 0.5]
+origin = "lane"
+image = "assets/white.png"
+layer = 10
+
+
+
+
+
+[playfield]
+[playfield.score]
+class = "ScoreDisplay"
+field = "score"
+format = "%07d"
+align = ["right", "top"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/Derby/AldotheApache.ttf"
+size = 40
+xywh = [0, 0, 0.993, 1]
+origin = "all"
+layer = 1
+
+[playfield.accuracy]
+class = "ScoreDisplay"
+field = "accuracy"
+format = "%0.2f"
+align = ["right", "top"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/Derby/AldotheApache.ttf"
+size = 32
+xywh = [0, 0.06, 0.993, 1]
+origin = "all"
+layer = 1
+
+[playfield.combo]
+class = "ScoreDisplay"
+field = "combo"
+format = "%d"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/Derby/AldotheApache.ttf"
+size = 70
+xywh = [0, 0, 480, 270]
+origin = "lane"
+layer = 19
+
+[playfield.timegate]
+class = "ScoreDisplay"
+field = "timegate"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "userdata/skins/Derby/AldotheApache.ttf"
+size = 50
+xywh = [0, 10, 480, 480]
+origin = "lane"
+layer = 19
+
+[playfield.progressBar]
+class = "ProgressBar"
+color = [255, 255, 255, 255]
+direction = "up-down"
+mode = "-"
+xywh = [0, 0, 0.005, 1]
+origin = "all"
+layer = 1

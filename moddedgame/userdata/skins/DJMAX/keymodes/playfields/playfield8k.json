@@ -1,0 +1,593 @@
+[
+  {
+    "image": "resources/all/bg.png",
+    "class": "StaticObject",
+    "x": -0.2324074074,
+    "y": 0.0,
+    "w": 0.4648148148,
+    "h": 1.0,
+    "layer": 1,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "image": "resources/all/judgeline.png",
+    "class": "StaticObject",
+    "x": -0.888888889,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 20,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "image": "resources/all/playfield.png",
+    "class": "StaticObject",
+    "x": -0.888888889,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 90,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "image": "resources/all/combo.png",
+    "class": "StaticObject",
+    "x": -0.888888889,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      200,
+      200,
+      200,
+      229
+    ],
+    "format": "%d",
+    "field": "combo",
+    "align": {
+      "x": "center",
+      "y": "top"
+    },
+    "font": "userdata/skins/DJMAX/resources/fonts/Haettenschweiler.ttf",
+    "size": 105,
+    "class": "ScoreDisplay",
+    "x": -0.888888889,
+    "y": 0.108240209,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      250,
+      200,
+      50,
+      250
+    ],
+    "direction": "left-right",
+    "mode": "+",
+    "class": "ProgressBar",
+    "x": 0.0,
+    "y": 0.47777777777,
+    "w": 0.09074074074,
+    "h": 0.0074074074,
+    "layer": 111,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      250,
+      200,
+      50,
+      250
+    ],
+    "direction": "right-left",
+    "mode": "+",
+    "class": "ProgressBar",
+    "x": -0.09074074074,
+    "y": 0.47777777777,
+    "w": 0.09074074074,
+    "h": 0.0074074074,
+    "layer": 111,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "image": "resources/all/progressbarbg.png",
+    "class": "StaticObject",
+    "x": -0.09259259259,
+    "y": 0.47592592592,
+    "w": 0.18518518518,
+    "h": 0.01111111111,
+    "layer": 110,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "image": "resources/all/rate.png",
+    "class": "StaticObject",
+    "x": -0.888888889,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      255,
+      255,
+      255,
+      229
+    ],
+    "format": "%0.2f",
+    "field": "accuracy",
+    "align": {
+      "x": "left",
+      "y": "top"
+    },
+    "font": "userdata/skins/DJMAX/resources/fonts/Lato-Black.ttf",
+    "size": 12,
+    "class": "ScoreDisplay",
+    "x": 0.0,
+    "y": 0.527142857,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      250,
+      200,
+      50,
+      229
+    ],
+    "format": "%s",
+    "field": "timegate",
+    "align": {
+      "x": "center",
+      "y": "top"
+    },
+    "font": "userdata/skins/DJMAX/resources/fonts/Bulo Black.otf",
+    "size": 57,
+    "class": "ScoreDisplay",
+    "x": -0.888888889,
+    "y": 0.517768907,
+    "w": 1.777777778,
+    "h": 1.0,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      58,
+      205,
+      245,
+      255
+    ],
+    "format": "%d",
+    "field": "combo",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/DJMAX/resources/fonts/Lato-HeavyItalic.ttf",
+    "size": 15,
+    "class": "ScoreDisplay",
+    "x": -0.1064814815,
+    "y": 0.8731481481,
+    "w": 0.09259259259,
+    "h": 0.03888888889,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "color": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "format": "%07d",
+    "field": "score",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/DJMAX/resources/fonts/Lato-Regular.ttf",
+    "size": 16,
+    "class": "ScoreDisplay",
+    "x": 0.1574074074,
+    "y": 0.8722222222,
+    "w": 0.09259259259,
+    "h": 0.03888888889,
+    "layer": 100,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": -0.2222222222,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": -0.2222222222,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": -0.1481481481,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": -0.1481481481,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": -0.07407407407,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": -0.07407407407,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 6,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": 0.0,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 6,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 7,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": 0.07407407407,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 7,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": 0.07407407407,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 8,
+    "released": "resources/6k/key6k.png",
+    "pressed": "resources/6k/keypressed6k.png",
+    "class": "InputImage",
+    "x": 0.1481481481,
+    "y": 0.7787037037,
+    "w": 0.07407407407,
+    "h": 0.05555555556,
+    "layer": 122,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 8,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/6k/beam6k.png",
+    "class": "InputImage",
+    "x": 0.1481481481,
+    "y": 0.0,
+    "w": 0.07407407407,
+    "h": 0.8074074074,
+    "layer": 31,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "resources/all/fx1keyleft.png",
+    "pressed": "resources/all/fx1keyleftpressed.png",
+    "class": "InputImage",
+    "x": -0.2324074074,
+    "y": 0.7416666667,
+    "w": 0.2324074074,
+    "h": 0.03333333333,
+    "layer": 120,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/all/fxbeam.png",
+    "class": "InputImage",
+    "x": -0.2222222222,
+    "y": 0.0,
+    "w": 0.22222222222,
+    "h": 0.8074074074,
+    "layer": 30,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 5,
+    "released": "resources/all/fx1keyright.png",
+    "pressed": "resources/all/fx1keyrightpressed.png",
+    "class": "InputImage",
+    "x": 0.0,
+    "y": 0.7416666667,
+    "w": 0.2324074074,
+    "h": 0.03333333333,
+    "layer": 120,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  },
+  {
+    "inputType": "key",
+    "inputIndex": 5,
+    "released": "resources/all/blank.png",
+    "pressed": "resources/all/fxbeam.png",
+    "class": "InputImage",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 0.22222222222,
+    "h": 0.8074074074,
+    "layer": 30,
+    "cs": [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  }
+]

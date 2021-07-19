@@ -1,0 +1,97 @@
+{
+	"name": "soundsphere score system",
+	"counters": [
+		{
+			"path": "accuracy.lua"
+		},
+		{
+			"path": "combo.lua",
+			"tableName": "comboHits"
+		},
+		{
+			"path": "score.lua"
+		},
+		{
+			"path": "hits.lua",
+			"scale": 0.25,
+			"tableName": "hits"
+		},
+		{
+			"path": "grade.lua",
+			"grades": [
+				{"time": 0.001, "name": "auto"},
+				{"time": 0.002, "name": "cheater"},
+				{"time": 0.004, "name": ">_<"},
+				{"time": 0.006, "name": "wtf?"},
+				{"time": 0.008, "name": "ET"},
+				{"time": 0.010, "name": "$$$"},
+				{"time": 0.012, "name": "SS"},
+				{"time": 0.016, "name": "S++"},
+				{"time": 0.020, "name": "S+"},
+				{"time": 0.024, "name": "S"},
+				{"time": 0.028, "name": "A+"},
+				{"time": 0.032, "name": "A"},
+				{"time": 0.048, "name": "B"},
+				{"time": 0.98, "name": "E"},
+				{"name": "F"}
+			]
+		},
+		{
+			"path": "timegates.lua",
+			"timegates": [
+				{
+					"time": -0.220,
+					"names": ["POOR", "FAST"]
+				},
+				{
+					"time": -0.200,
+					"names": ["BAD", "FAST"]
+				},
+				{
+					"time": -0.100,
+					"names": ["GOOD", "FAST"]
+				},
+				{
+					"time": -0.040,
+					"names": ["GREAT", "BGREAT", "FAST"]
+				},
+				{
+					"time": -0.018,
+					"names": ["PGREAT"]
+				},
+				{
+					"time": 0.018,
+					"names": ["PGREAT"]
+				},
+				{
+					"time": 0.040,
+					"names": ["GREAT", "BGREAT", "SLOW"]
+				},
+				{
+					"time": 0.100,
+					"names": ["GOOD", "SLOW"]
+				},
+				{
+					"time": 0.200,
+					"names": ["BAD", "SLOW"]
+				},
+				{
+					"time": -0.220,
+					"names": ["POOR", "SLOW"]
+				}
+			]
+		}
+	],
+	"notes": {
+		"ShortScoreNote": {
+			"pass": [-0.200, 0.200],
+			"miss": [-0.220]
+		},
+		"LongScoreNote": {
+			"startPass": [-0.200, 0.200],
+			"startMiss": [-0.220],
+			"endPass": [-0.200, 0.200],
+			"endMiss": [-0.220]
+		}
+	}
+}

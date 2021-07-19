@@ -1,0 +1,62 @@
+[
+	{
+		"name": "SillyFanBoy 14K2S",
+		"inputMode": "14key2scratch",
+		"type": "json:full-v3",
+		"path": "14K2S.json"
+	},
+	{
+		"name": "SillyFanBoy 10K2S",
+		"inputMode": "10key2scratch",
+		"type": "json:full-v3",
+		"path": "10K2S.json"
+	},
+	{
+		"name": "SillyFanBoy 7K1S",
+		"inputMode": "7key1scratch",
+		"type": "json:full-v3",
+		"path": "7K1S.json"
+	},
+	{
+		"name": "SillyFanBoy 5K1S",
+		"inputMode": "5key1scratch",
+		"type": "json:full-v3",
+		"path": "5K1S.json"
+	},
+	{
+		"name": "SillyFanBoy 4K",
+		"inputMode": "4key",
+		"type": "json:full-v3",
+		"path": "4K.json"
+	},
+	{
+		"name": "SillyFanBoy 5K",
+		"inputMode": "5key",
+		"type": "json:full-v3",
+		"path": "5K.json"
+	},
+	{
+		"name": "SillyFanBoy 6K",
+		"inputMode": "6key",
+		"type": "json:full-v3",
+		"path": "6K.json"
+	},
+	{
+		"name": "SillyFanBoy 7K",
+		"inputMode": "7key",
+		"type": "json:full-v3",
+		"path": "7K.json"
+	},
+	{
+		"name": "SillyFanBoy 8K",
+		"inputMode": "8key",
+		"type": "json:full-v3",
+		"path": "8K.json"
+	},
+	{
+		"name": "SillyFanBoy 9K",
+		"inputMode": "9key",
+		"type": "json:full-v3",
+		"path": "9K.json"
+	}
+]

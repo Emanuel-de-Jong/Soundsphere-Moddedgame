@@ -1,0 +1,1955 @@
+{
+  "notes": {
+    "____COMMENT____": "Lift Height",
+    "measure1:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number", 0],
+          "y": ["linear", [0, 1.0]],
+          "w": ["number", 0],
+          "h": ["number", 0],
+          "ox": ["number", 0],
+          "oy": ["number", 0],
+          "color": ["colorBlank"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 0,
+        "image": "blank"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number", 0],
+          "y": ["linear", [0, 1.0]],
+          "w": ["number", 0],
+          "h": ["number", 0],
+          "ox": ["number", 0],
+          "oy": ["number", 0],
+          "color": ["colorBlank"]
+        },
+        "layer": 0,
+        "image": "blank"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.4635
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.927
+          ],
+          "h": ["number",
+            0.0028
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorMeasure"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 3,
+        "image": "measure"
+      }
+    },
+    "scratch1:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.4639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteR"
+      }
+    },
+    "scratch1:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.4639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteRT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.4639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteRB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.4639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteRH"
+      }
+    },
+    "key1:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.378
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key1:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.378
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.378
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.378
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key2:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.328
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key2:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.328
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.328
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.328
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key3:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.289
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key3:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.289
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.289
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.289
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key4:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.239
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key4:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.239
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.239
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.239
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key5:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.2
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key5:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.2
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.2
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.2
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key6:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.1500
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key6:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.1500
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.1500
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.1500
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key7:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.1111
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key7:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            -0.1111
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            -0.1111
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            -0.1111
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key8:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.0639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key8:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.0639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.0639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.0639
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key9:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.1139
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key9:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.1139
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.1139
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.1139
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key10:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.153
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key10:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.153
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.153
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.153
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key11:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.203
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key11:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.203
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.203
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.203
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key12:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.242
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key12:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.242
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.242
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.242
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "key13:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.292
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteB"
+      }
+    },
+    "key13:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.292
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteBT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.292
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteBB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.292
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.036
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteBH"
+      }
+    },
+    "key14:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.331
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteW"
+      }
+    },
+    "key14:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.331
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteWT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.331
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteWB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.331
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.047
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteWH"
+      }
+    },
+    "scratch2:ShortNote": {
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.3806
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorShortNote"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 7,
+        "image": "noteR"
+      }
+    },
+    "scratch2:LongNote": {
+      "Tail": {
+        "gc": {
+          "x": ["number",
+            0.3806
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteTail"]
+        },
+        "drawInterval": [-0.2, 1],
+        "layer": 5,
+        "image": "noteRT"
+      },
+      "Body": {
+        "gc": {
+          "x": ["number",
+            0.3806
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0111
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteBody"]
+        },
+        "layer": 4,
+        "image": "noteRB"
+      },
+      "Head": {
+        "gc": {
+          "x": ["number",
+            0.3806
+          ],
+          "y": ["linear",
+            [0.6705,
+            1.0]
+          ],
+          "w": ["number",
+            0.083
+          ],
+          "h": ["number",
+            0.0222
+          ],
+          "ox": ["number",
+            0.0
+          ],
+          "oy": ["number",
+            -1.0
+          ],
+          "color": ["colorLongNoteHead"]
+        },
+        "cs": 1,
+        "drawInterval": [-0.2, 1],
+        "layer": 6,
+        "image": "noteRH"
+      }
+    }
+  },
+  
+  "playfield": "jsons/14k2s playfield.json",
+	"env": "jsons/env.lua",
+  "cses": [
+    [
+      0.5,
+      0,
+      0,
+      0,
+      "h"
+    ]
+  ],
+
+  "images": [
+    {
+      "name": "blank",
+      "path": "assets/blank.png",
+      "layer": 0
+    },
+    {
+      "name": "measure",
+      "path": "assets/measures/DP.png",
+      "layer": 3
+    },
+    {
+      "name": "noteR",
+      "path": "assets/notes/r.png",
+      "layer": 7
+    },
+    {
+      "name": "noteRT",
+      "path": "assets/notes/rT.png",
+      "layer": 5
+    },
+    {
+      "name": "noteRB",
+      "path": "assets/notes/rB.png",
+      "layer": 4
+    },
+    {
+      "name": "noteRH",
+      "path": "assets/notes/rH.png",
+      "layer": 6
+    },
+    {
+      "name": "noteW",
+      "path": "assets/notes/w.png",
+      "layer": 7
+    },
+    {
+      "name": "noteWT",
+      "path": "assets/notes/wT.png",
+      "layer": 5
+    },
+    {
+      "name": "noteWB",
+      "path": "assets/notes/wB.png",
+      "layer": 4
+    },
+    {
+      "name": "noteWH",
+      "path": "assets/notes/wH.png",
+      "layer": 6
+    },
+    {
+      "name": "noteB",
+      "path": "assets/notes/b.png",
+      "layer": 7
+    },
+    {
+      "name": "noteBT",
+      "path": "assets/notes/bT.png",
+      "layer": 5
+    },
+    {
+      "name": "noteBB",
+      "path": "assets/notes/bB.png",
+      "layer": 4
+    },
+    {
+      "name": "noteBH",
+      "path": "assets/notes/bH.png",
+      "layer": 6
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+[
+  { "____COMMENT____": "Cover Heights" },
+  { "____COMMENT____": "Hidden" },
+  {
+    "x": 0.0694,
+    "y": 0.67,
+    "w": 0.4000,
+    "h": 0.6694,
+    "image": "assets/covers/hiddenSP.png",
+    "class": "StaticObject",
+    "layer": 8,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  { "____COMMENT____": "Lift" },
+  {
+    "x": 0.0694,
+    "y": 0.67,
+    "w": 0.4000,
+    "h": 0.5554,
+    "image": "assets/covers/liftSP.png",
+    "class": "StaticObject",
+    "layer": 9,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.0694,
+    "y": 0.0,
+    "w": 0.4000,
+    "h": 0.6694,
+    "image": "assets/lanes/SP1.png",
+    "class": "StaticObject",
+    "layer": 1,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  { "____COMMENT____": "Sudden" },
+  {
+    "x": 0.0694,
+    "y": -0.67,
+    "w": 0.4000,
+    "h": 0.6694,
+    "image": "assets/covers/suddenSP.png",
+    "class": "StaticObject",
+    "layer": 10,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  
+  { "____COMMENT____": "Judge Height" },
+  {
+    "x": -0.0293,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%s",
+    "field": "timegate",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.3305,
+    "y": 0.27,
+    "w": 0.35,
+    "h": 0.2,
+    "color": [
+      255,
+      220,
+      0,
+      255
+    ],
+    "format": "%d",
+    "field": "combo",
+    "align": {
+      "x": "left",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/judge.ttf",
+    "size": 68,
+    "class": "ScoreDisplay",
+    "layer": 15,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+
+  {
+    "x": 0.0444,
+    "y": 0.0519,
+    "w": 0.0111,
+    "h": 0.5852,
+    "image": "assets/lamps/bg.png",
+    "class": "StaticObject",
+    "layer": 7,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.0472,
+    "y": 0.0704,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      250,
+      200,
+      50,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 8,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.0472,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.0157,
+    "image": "assets/lamps/lamp.png",
+    "class": "StaticObject",
+    "layer": 9,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.0472,
+    "y": 0.0546,
+    "w": 0.0056,
+    "h": 0.5639,
+    "color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "direction": "up-down",
+    "mode": "+",
+    "class": "ProgressBar",
+    "layer": 10,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  
+  {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.777777778,
+    "h": 1.0,
+    "image": "assets/modes/5k.png",
+    "class": "StaticObject",
+    "layer": 11,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+
+  {
+    "x": 0.243,
+    "y": 0.7425,
+    "w": 0.2,
+    "h": 0.1,
+    "color": [
+      235,
+      235,
+      235,
+      255
+    ],
+    "format": "%d",
+    "field": "accuracy",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/accuracy.ttf",
+    "size": 29,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.696,
+    "y": 0.8825,
+    "w": 0.25,
+    "h": 0.05,
+    "color": [
+      255,
+      240,
+      180,
+      255
+    ],
+    "format": "%06d",
+    "field": "score",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/score.ttf",
+    "size": 26,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 1.2155,
+    "y": 0.8825,
+    "w": 0.25,
+    "h": 0.05,
+    "color": [
+      255,
+      240,
+      180,
+      255
+    ],
+    "format": "%04d",
+    "field": "combo",
+    "align": {
+      "x": "right",
+      "y": "center"
+    },
+    "font": "userdata/skins/IIDX/assets/fonts/score.ttf",
+    "size": 26,
+    "class": "ScoreDisplay",
+    "layer": 12,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  
+  {
+    "x": 0.1556,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.2056,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.2944,
+    "y": 0.0,
+    "w": 0.036,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/b.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.3333,
+    "y": 0.0,
+    "w": 0.047,
+    "h": 0.669,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/beams/w.png",
+    "class": "InputImage",
+    "layer": 2,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+
+  {
+    "x": 0.1530,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.2030,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.2920,
+    "y": 0.6695,
+    "w": 0.0415,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/b.png",
+    "class": "InputImage",
+    "layer": 12,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.3310,
+    "y": 0.6695,
+    "w": 0.0526,
+    "h": 0.0955,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/keys/w.png",
+    "class": "InputImage",
+    "layer": 13,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  
+  {
+    "x": -0.090,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 1,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": -0.045,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 2,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.045,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 3,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [0, 0, 0, 0, "h"]
+  },
+  {
+    "x": 0.090,
+    "y": 0.453,
+    "w": 0.54,
+    "h": 0.4324,
+    "inputType": "key",
+    "inputIndex": 4,
+    "released": "assets/blank.png",
+    "pressed": "assets/bomb.png",
+    "blendMode": "screen",
+    "class": "InputImage",
+    "layer": 14,
+    "cs": [0, 0, 0, 0, "h"]
+  }
+]

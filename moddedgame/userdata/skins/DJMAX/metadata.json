@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DJMAX 4k",
+    "inputMode": "4key",
+    "type": "json:full-v3",
+    "path": "keymodes/4k.json"
+  },
+  {
+    "name": "DJMAX 6k",
+    "inputMode": "6key",
+    "type": "json:full-v3",
+    "path": "keymodes/6k.json"
+  },
+  {
+    "name": "DJMAX 8k",
+    "inputMode": "8key",
+    "type": "json:full-v3",
+    "path": "keymodes/8k.json"
+  },
+  {
+    "name": "DJMAX 10kfade2st",
+    "inputMode": "10key2scratch",
+    "type": "json:full-v3",
+    "path": "keymodes/10kfade2st.json"
+  },
+  {
+    "name": "DJMAX 6k4lfade",
+    "inputMode": "4bt2fx2laserleft2laserright",
+    "type": "json:full-v3",
+    "path": "keymodes/6k4lfade.json"
+  }
+]

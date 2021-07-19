@@ -1,0 +1,23 @@
+good	6			120
+great	1			20
+pgreat	0/-1		0/-20
+great	-3			-60
+good	-8			-160
+
+pgreat	20
+great	40
+good	105
+bad		150
+
+bad		9			180
+good	4			80
+great	2			40
+pgreat	1/0			20/0
+great	-1			-20
+good	-3			-60
+bad		-10			-200
+
+pgreat	18
+great	40
+good	100
+bad		200

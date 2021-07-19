@@ -1,0 +1,133 @@
+[
+    {
+		"class": "StaticObject",
+		"x": -0.5, "y": 0,
+		"w": 1, "h": 1,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"image": "playfield.png",
+		"layer": 2
+	},
+
+    {
+		"class": "ProgressBar",
+		"x": 0, "y": 0,
+		"w": 0.01, "h": 1,
+		"cs": [0, 0, 0, 0, "all"],
+		"color": [0, 0, 255, 255],
+		"direction": "up-down",
+		"mode": "+",
+		"layer": 10
+	},
+
+
+    {
+		"class": "ScoreDisplay",
+		"field": "timegate",
+		"x": -0.5, "y": 0.05,
+		"w": 1, "h": 0.5,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"align": {
+			"x": "left",
+			"y": "center"
+		},
+		"color": [0, 0, 255, 255],
+		"format": "%s",
+		"font": "userdata/skins/Type/Comfortaa.ttf",
+		"size": 30,
+		"layer": 10
+	},
+
+
+    {
+		"class": "ScoreDisplay",
+		"field": "accuracy",
+		"x": -0.5, "y": 0.10,
+		"w": 1, "h": 0.5,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"align": {
+			"x": "left",
+			"y": "center"
+		},
+		"color": [0, 0, 255, 255],
+		"format": "%d",
+		"font": "userdata/skins/Type/Comfortaa.ttf",
+		"size": 30,
+		"layer": 10
+	},
+
+
+    {
+		"class": "ScoreDisplay",
+		"field": "score",
+		"x": -0.5, "y": 0.15,
+		"w": 1, "h": 0.5,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"align": {
+			"x": "left",
+			"y": "center"
+		},
+		"color": [0, 0, 255, 255],
+		"format": "%d",
+		"font": "userdata/skins/Type/Comfortaa.ttf",
+		"size": 30,
+		"layer": 10
+	},
+
+
+    {
+		"class": "ScoreDisplay",
+		"field": "combo",
+		"x": -0.5, "y": 0.20,
+		"w": 1, "h": 0.5,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"align": {
+			"x": "left",
+			"y": "center"
+		},
+		"color": [0, 0, 255, 255],
+		"format": "%d",
+		"font": "userdata/skins/Type/Comfortaa.ttf",
+		"size": 30,
+		"layer": 10
+	},
+
+
+
+
+
+	{
+		"class": "InputImage",
+		"x": -0.185, "y": 0.85,
+		"w": 0.12, "h": 0.08,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"inputType": "key",
+		"inputIndex": 1,
+		"released": "keys/oR.png",
+		"pressed": "keys/oP.png",
+		"layer": 13
+	},
+
+	{
+		"class": "InputImage",
+		"x": -0.06, "y": 0.85,
+		"w": 0.12, "h": 0.08,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"inputType": "key",
+		"inputIndex": 2,
+		"released": "keys/oR.png",
+		"pressed": "keys/oP.png",
+		"layer": 13
+	},
+
+	{
+		"class": "InputImage",
+		"x": 0.065, "y": 0.85,
+		"w": 0.12, "h": 0.08,
+		"cs": [0.5, 0, 0, 0, "h"],
+		"inputType": "key",
+		"inputIndex": 3,
+		"released": "keys/oR.png",
+		"pressed": "keys/oP.png",
+		"layer": 13
+	}
+]

@@ -1,0 +1,11 @@
+bomb
+note
+longnote
+beam
+key light
+window
+timing window
+judge font
+judge height
+cover
+cover height

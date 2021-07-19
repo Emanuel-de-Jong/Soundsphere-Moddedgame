@@ -1,0 +1,116 @@
+[
+	{
+		"name": "PSCHC-S v3 10K Left",
+		"inputMode": "5key",
+		"type": "toml:simple-v3",
+		"path": "10key Left.toml"
+	},
+		{
+		"name": "PSCHC-S v3 10K Right",
+		"inputMode": "5key",
+		"type": "toml:simple-v3",
+		"path": "10key Right.toml"
+	},
+	{
+		"name": "PSCHC-S v3 4K toml",
+		"inputMode": "4key",
+		"type": "toml:simple-v3",
+		"path": "4key.toml"
+	},
+	{
+		"name": "PSCHC-S v3 7K1S v2 skin toml",
+		"inputMode": "7key1scratch",
+		"type": "toml:simple-v3",
+		"path": "7key1scratch v2.toml"
+	},
+	{
+		"name": "PSCHC-S v3 9K v2 skin toml",
+		"inputMode": "9key",
+		"type": "toml:simple-v3",
+		"path": "9key v2.toml"
+	},
+	{
+		"name": "PSCHC-S v3 10K skin toml",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "10key.toml"
+	},
+	{
+		"name": "PSCHC-S v3 10K1S skin toml",
+		"inputMode": "10key1scratch",
+		"type": "toml:simple-v3",
+		"path": "10key1scratch.toml"
+	},
+	{
+		"name": "PSCHC-S v3 10K2S skin toml",
+		"inputMode": "10key2scratch",
+		"type": "toml:simple-v3",
+		"path": "10key2scratch.toml"
+	},
+	{
+		"name": "PSCHC-S v3 18K skin toml",
+		"inputMode": "18key",
+		"type": "toml:simple-v3",
+		"path": "18key.toml"
+	},
+	{
+		"name": "PSCHC-S v3 7K skin toml",
+		"inputMode": "7key",
+		"type": "toml:simple-v3",
+		"path": "7key.toml"
+	},
+	{
+		"name": "PSCHC-S v3 20K skin toml",
+		"inputMode": "20key",
+		"type": "toml:simple-v3",
+		"path": "20key.toml"
+	},
+	{
+		"name": "PSCHC-S v3 7K v2 skin toml",
+		"inputMode": "7key",
+		"type": "toml:simple-v3",
+		"path": "7key v2.toml"
+	},
+	{
+		"name": "PSCHC-S v3 14K2S ez2ac",
+		"inputMode": "14key2scratch",
+		"type": "toml:simple-v3",
+		"path": "14key2scratch.toml"
+	},
+	{
+		"name": "PSCHC-S v3 14K2S v2 ez2ac",
+		"inputMode": "14key2scratch",
+		"type": "toml:simple-v3",
+		"path": "14key2scratch v2.toml"
+	},
+	{
+		"name": "PSCHC-S v3 10K v2",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "10key v2.toml"
+	},
+	{
+		"name": "PSCHC-S v3 10K on 14K v2",
+		"inputMode": "14key2scratch",
+		"type": "toml:simple-v3",
+		"path": "10K14K.toml"
+	},
+	{
+		"name": "PSCHC-S v3 14K2S BM",
+		"inputMode": "14key2scratch",
+		"type": "toml:simple-v3",
+		"path": "14key2scratch BM.toml"
+	},
+	{
+		"name": "PSCHC-S v3 16K BM",
+		"inputMode": "16key",
+		"type": "toml:simple-v3",
+		"path": "146K BM.toml"
+	},
+	{
+		"name": "PSCHC-S v3 4K4K4K4K",
+		"inputMode": "16key",
+		"type": "toml:simple-v3",
+		"path": "4K4K4K4K.toml"
+	}
+]
