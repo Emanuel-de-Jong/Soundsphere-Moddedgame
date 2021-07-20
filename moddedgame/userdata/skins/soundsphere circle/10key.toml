@@ -182,17 +182,129 @@ xywh = [0, -50, 480, 461]
 origin = "lane"
 layer = 5
 
-[playfield.timegate]
+
+
+[playfield.timegate1]
 class = "ScoreDisplay"
-field = "timegate"
+field = "timegate1"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [-220, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate2]
+class = "ScoreDisplay"
+field = "timegate2"
 format = "%s"
 align = ["center", "center"]
 color = [255, 255, 255, 255]
 font = "resources/fonts/SourceCodePro-Regular.ttf"
-size = 28
-xywh = [0, -50, 480, 475]
+size = 22
+xywh = [-171, -70, 480, 475]
 origin = "lane"
 layer = 5
+
+[playfield.timegate3]
+class = "ScoreDisplay"
+field = "timegate3"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [-122, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate4]
+class = "ScoreDisplay"
+field = "timegate4"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [-73, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate5]
+class = "ScoreDisplay"
+field = "timegate5"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [-24, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate6]
+class = "ScoreDisplay"
+field = "timegate6"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [24, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate7]
+class = "ScoreDisplay"
+field = "timegate7"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [73, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate8]
+class = "ScoreDisplay"
+field = "timegate8"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [122, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate9]
+class = "ScoreDisplay"
+field = "timegate9"
+format = "%s"
+align = ["center", "center"]
+color = [255, 255, 255, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [171, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+[playfield.timegate10]
+class = "ScoreDisplay"
+field = "timegate10"
+format = "%s"
+align = ["center", "center"]
+color = [200, 255, 200, 255]
+font = "resources/fonts/SourceCodePro-Regular.ttf"
+size = 22
+xywh = [220, -70, 480, 475]
+origin = "lane"
+layer = 5
+
+
 
 [playfield.accuracyGraph]
 class = "PointGraph"
