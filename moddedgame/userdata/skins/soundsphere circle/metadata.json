@@ -1,5 +1,17 @@
 [
 	{
+		"name": "soundsphere 10k circle",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "10key.toml"
+	},
+	{
+		"name": "soundsphere 10k 2 circle",
+		"inputMode": "10key",
+		"type": "toml:simple-v3",
+		"path": "10key 2.toml"
+	},
+	{
 		"name": "soundsphere 4key circle noteskin toml",
 		"inputMode": "4key",
 		"type": "toml:simple-v3",
@@ -58,12 +70,6 @@
 		"inputMode": "18key",
 		"type": "toml:simple-v3",
 		"path": "18key.toml"
-	},
-	{
-		"name": "soundsphere 10key circle noteskin toml",
-		"inputMode": "10key",
-		"type": "toml:simple-v3",
-		"path": "10key.toml"
 	},
 	{
 		"name": "soundsphere 10key2scratch circle noteskin toml",
